@@ -27,7 +27,13 @@ public class TestCal {
 		Calc calc= new Calc();
 		int result=calc.subtract(5,5);
 		assertEquals(0, result);
+	}
 		
+		@Test
+		public void testDiv() {
+			Calc calc= new Calc();
+			int result=calc.Div(5,5);
+			assertEquals(1, result);
 	}
 
 }
