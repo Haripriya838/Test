@@ -13,7 +13,7 @@ public class Calc {
  
  public int subtract(int x, int y)
  { 
-	 int z=0;
+	 
 	 return x-y;
  }
  
